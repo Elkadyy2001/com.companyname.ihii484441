@@ -20,7 +20,7 @@ jobs:
     - uses: tashi-iu/setup-fastlane@v1
       with:
     # Optional. Default: 'latest'
-            version: '2.223.1'
+            version: 'latest'
     - uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 9.0.x
